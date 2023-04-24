@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imgs/logoTab.png">
+    <title>Cock Fights | Camisa 1</title>
+    <link rel="stylesheet" type="text/css" href="../index.css">
+    <link rel="stylesheet" type="text/css" href="../styles/produtoEsp.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="faixaLogo">
+            <a href="../index.html"><img id="logo" src="../imgs/logo.png"></a>
+            <nav id="buttonsMenu">
+                <a class="itemLogo">Ajuda</a>
+                <a class="itemLogo">Junte-se a nós</a>
+                <a class="itemLogo">Entrar</a>
+            </nav>
+        </div>
+
+        <div id="faixaMenu">
+            <div id="divNavegacao">
+                <nav id="menu">
+                    <a class="itemMenu">Galos</a>    
+                    <a class="itemMenu">Camisas</a>    
+                    <a class="itemMenu">Itens</a>      
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="produtoGeral">
+            <div id="divImagem" style="width: 40vw;">
+                <img id="imagem" src="../imgs/camisa1.jfif" style="height: 75vh; margin-top: 5.5vh; margin-left: 2vw;">
+            </div>
+
+            <div id="texto">
+                <label id="titulo">Camisa GDC</label>
+                <label id="preco">R$45,99</label>
+                <label id="descricao">Apresentamos a camisa "Galo de Combate - 
+                    Cultura Milenar", uma peça exclusiva para quem aprecia a 
+                    cultura popular e a tradição dos galos de briga. Com a 
+                    estampa de um galo de combate, ícone das rinhas e brigas 
+                    de galos, essa camiseta é perfeita para quem quer demonstrar 
+                    sua admiração por essa cultura milenar.</label><Br>
+                <label>Feita em tecido de alta qualidade e confortável, essa 
+                    camisa é ideal para ser usada em diversas ocasiões, desde 
+                    um passeio casual até uma noite de festa. Com seu design 
+                    moderno e estiloso, essa camiseta é uma ótima opção para 
+                    quem quer se destacar e mostrar sua personalidade.</label><br>
+                       <label> Adquira já a sua camisa "Galo de Combate - Cultura Milenar" 
+                        e faça parte desse universo cheio de história e tradição!</label>
+                <div id="tamanhos">
+                    <button onclick="escolherTamanho(event)" class="tamanho">P</button>
+                    <button onclick="escolherTamanho(event)" class="tamanho">M</button>
+                    <button onclick="escolherTamanho(event)" class="tamanho">G</button>
+                    <button onclick="escolherTamanho(event)" class="tamanho">GG</button>
+                </div>
+                <button onclick="abrirCaixaDialogo()" id="comprar">Adicionar ao carrinho</button>
+                    
+            </div>
+
+            <!-- <div id="listra" style="margin-left: 2vw;"></div> -->
+        </div>
+    </main>
+
+
+    <div id="caixaDialogo" class="escondido">
+        <h2 id="sucesso">Sucesso!</h2>
+        <label id="descPop">O item foi adicionado ao carrinho.</label>
+      </div>
+    <script src="../scripts/produto.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imgs/logoTab.png">
+    <title>Cock Fights | Camisa 1</title>
+    <link rel="stylesheet" type="text/css" href="../index.css">
+    <link rel="stylesheet" type="text/css" href="../styles/produtoEsp.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="faixaLogo">
+            <a href="../index.html"><img id="logo" src="../imgs/logo.png"></a>
+            <nav id="buttonsMenu">
+                <a class="itemLogo">Ajuda</a>
+                <a class="itemLogo">Junte-se a nós</a>
+                <a class="itemLogo">Entrar</a>
+            </nav>
+        </div>
+
+        <div id="faixaMenu">
+            <div id="divNavegacao">
+                <nav id="menu">
+                    <a class="itemMenu">Galos</a>    
+                    <a class="itemMenu">Camisas</a>    
+                    <a class="itemMenu">Itens</a>      
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="produtoGeral">
+            <div id="divImagem" style="width: 40vw;">
+                <img id="imagem" src="../imgs/item2.jpg" style="height: 75vh; margin-top: 5.5vh; margin-left: 2vw;">
+            </div>
+
+            <div id="texto">
+                <label id="titulo">Caneca GDC</label>
+                <label id="preco">R$45,99</label>
+                <label id="descricao">Sendo uma loja especializada em produtos para rinha de galo, oferecemos agora uma corrente exclusiva que combina perfeitamente com o estilo de vida dos entusiastas desse esporte.</label><Br>
+                <label>Feita com materiais resistentes e duráveis, a corrente de rinha de galo possui um design único e elegante, que apresenta imagens de galos de briga em plena ação. Ela é a escolha ideal para quem busca um acessório autêntico e de alta qualidade para complementar o visual durante as lutas.
+                       Com tamanho ajustável, a corrente é confortável e prática de usar em qualquer ocasião. É um item essencial para os amantes da rinha de galo, que desejam mostrar sua paixão por esse esporte emocionante de uma maneira autêntica e sofisticada.
+                </label><br>
+                       <label>Não perca a oportunidade de adquirir a sua corrente de rinha de galo e exibir com orgulho o seu amor por esse esporte incrível!</label>
+                <button onclick="abrirCaixaDialogo()" id="comprar">Adicionar ao carrinho</button>
+                    
+            </div>
+
+            <!-- <div id="listra" style="margin-left: 2vw;"></div> -->
+        </div>
+    </main>
+
+
+    <div id="caixaDialogo" class="escondido">
+        <h2 id="sucesso">Sucesso!</h2>
+        <label id="descPop">O item foi adicionado ao carrinho.</label>
+      </div>
+    <script src="../scripts/produto.js"></script>
+</body>
+</html>

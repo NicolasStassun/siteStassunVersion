@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imgs/logoTab.png">
+    <title>Cock Fights | Camisa 1</title>
+    <link rel="stylesheet" type="text/css" href="../index.css">
+    <link rel="stylesheet" type="text/css" href="../styles/produtoEsp.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="faixaLogo">
+            <a href="../index.html"><img id="logo" src="../imgs/logo.png"></a>
+            <nav id="buttonsMenu">
+                <a class="itemLogo">Ajuda</a>
+                <a class="itemLogo">Junte-se a nós</a>
+                <a class="itemLogo">Entrar</a>
+            </nav>
+        </div>
+
+        <div id="faixaMenu">
+            <div id="divNavegacao">
+                <nav id="menu">
+                    <a class="itemMenu">Galos</a>    
+                    <a class="itemMenu">Camisas</a>    
+                    <a class="itemMenu">Itens</a>      
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="produtoGeral">
+            <div id="divImagem" style="width: 40vw;">
+                <img id="imagem" src="../imgs/item1.jpg" style="height: 75vh; margin-top: 5.5vh; margin-left: 2vw;">
+            </div>
+
+            <div id="texto">
+                <label id="titulo">Caneca GDC</label>
+                <label id="preco">R$45,99</label>
+                <label id="descricao">A caneca de rinha de galo é um produto exclusivo para os entusiastas desse esporte popular. Feita de cerâmica de alta qualidade, essa caneca possui um design único e elegante, que apresenta imagens de galos de briga em plena ação. A caneca tem capacidade para até 400ml, proporcionando uma experiência agradável e confortável na hora de degustar sua bebida favorita.</label><Br>
+                <label>Além de ser uma ótima opção para uso pessoal, essa caneca também pode ser um presente perfeito para amigos e familiares que são apaixonados por rinha de galo. Além disso, ela pode ser uma peça decorativa incrível para sua cozinha ou sala de estar, exibindo seu amor por esse esporte único e emocionante.</label><br>
+                       <label>Adquira agora sua caneca de rinha de galo e sinta a emoção desse esporte a cada gole de sua bebida favorita!</label>
+                <button onclick="abrirCaixaDialogo()" id="comprar">Adicionar ao carrinho</button>
+                    
+            </div>
+
+            <!-- <div id="listra" style="margin-left: 2vw;"></div> -->
+        </div>
+    </main>
+
+
+    <div id="caixaDialogo" class="escondido">
+        <h2 id="sucesso">Sucesso!</h2>
+        <label id="descPop">O item foi adicionado ao carrinho.</label>
+      </div>
+    <script src="../scripts/produto.js"></script>
+</body>
+</html>

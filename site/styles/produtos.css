@@ -1,0 +1,101 @@
+body {
+    height: 200vh;
+}
+#produtosGeral {
+    width: 98.7vw;
+    height: 200vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#faixaMenu {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: darkred;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 80vw;
+    height: 200vh;
+}
+
+.imagensProdutos {
+    border: solid black 0.2vw;
+    margin: 0.2vw;
+    width: 19vw;
+    height: 22.5vw;
+}
+
+.imagensProdutos:hover {
+    filter: brightness(0.7);
+    transition: 0.3s;
+}
+
+#menu {
+    font-size: 1.4vw;
+}
+
+
+#divNavegacao {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+.divProduto {
+    display: flex;
+    flex-direction: column ;
+    text-align: start;
+    margin-bottom: 3vw;
+}
+
+.nome {
+    margin-top: 0.2vh;
+    font-size: 1.3vw;
+    font-weight: 600;
+    margin-left: 0.5vw;
+}
+
+.preco {
+    margin-top: 0.1vh;
+    font-size: 1.1vw;
+    margin-left: 0.5vw;
+}
+
+.comprar {
+    margin-top: 1.3vh;
+    align-self: center;
+    width: 97%;
+    height: 4vh;
+    font-size: 1vw;
+    border-radius: 0.5vw;
+    border: solid transparent;
+    color: white;
+    background-color: darkred;
+}
+
+.comprar:hover {
+    background-color: red;
+    transition: 0.3s;
+}
+
+.esgotado {
+    margin-top: 1.3vh;
+    align-self: center;
+    width: 97%;
+    height: 4vh;
+    font-size: 1vw;
+    border-radius: 0.5vw;
+    border: solid transparent;
+    color: white;
+    background-color: grey;
+}

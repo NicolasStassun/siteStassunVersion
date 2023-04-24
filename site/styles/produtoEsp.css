@@ -1,0 +1,141 @@
+body {
+    height: 100vh;
+}
+
+#imagem {
+    border: solid black 0.2vw;
+    margin-top: 6.5vh;
+    margin-left: 4vw;
+    height: 72vh;
+}
+
+#produtoGeral {
+    width: 98.7vw;
+    display: flex;
+    justify-content: center;
+}
+
+#divImagem {
+    display: flex;
+    justify-content: flex-start;
+    width: 37vw;
+}
+
+#texto {
+    margin-left: 2vw;
+    margin-top: 4vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo {
+    display: flex;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 700;
+    margin-bottom: 1vh;
+}
+
+#preco {
+    display: flex;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#descricao {
+    display: flex;
+    font-size: 0.9vw;
+    width: 25vw;
+    margin-top: 2vh;
+}
+
+#listra {
+    margin-top: 3vh;
+    margin-left: 5vw;
+    width: 29vw;
+    background-color: darkred;
+}
+
+label {
+    margin-top: 1vh;
+    font-size: 0.9vw;
+    text-align: justify;
+}
+
+#comprar {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    border: solid transparent;
+    color: white;
+    border-radius: 0.3vw;
+    margin-top: 5vh;
+    align-self: center;
+    width: 24vw;
+    height: 6vh;
+    background-color: darkred;
+}
+
+#comprar:hover {
+    background-color: red;
+    transition: 0.3s;
+}
+
+#tamanhos {
+    align-self: center;
+}
+
+.tamanho {
+    font-weight: bold;
+    font-size: 0.9vw;
+    margin-top: 5vh;
+    width: 3.2vw;
+    height: 6vh;
+    background-color: transparent;
+    border: solid black 0.1vw;
+}
+
+.tamanho:hover {
+    border:solid darkred 0.2vw;
+    color: darkred;
+    transition: 0.1s;
+}
+
+
+#caixaDialogo {
+    position: fixed;
+    top: 1vh;
+    right: 1vw;
+    padding: 20px;
+    height: 6.5vh;
+    width: 16vw;
+    background-color: #fff;
+    box-shadow: 0 0 0.9vw rgba(0, 0, 0, 0.3);
+  }
+
+  #caixaDialogo:hover {
+    background-color: rgba(255, 255, 255, 0.938);
+    transition: 0.2s;
+  }
+  
+  .escondido {
+    display: none;
+  }
+
+  #textoCaixa {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1vh;
+  }
+
+  h2 {
+    margin: 0;
+    margin-bottom: 1.3vh;
+    margin-top:0.7vh;
+  }
+

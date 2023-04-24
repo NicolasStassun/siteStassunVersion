@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgs/logoTab.png">
+    <title>CockFights</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="faixaLogo">
+            <img id="logo" src="imgs/logo.png">
+            <nav id="buttonsMenu">
+                <a class="itemLogo">Ajuda</a>
+                <a class="itemLogo">Junte-se a nós</a>
+                <a class="itemLogo">Entrar</a>
+            </nav>
+        </div>
+
+        <div id="faixaMenu">
+            <div id="divNavegacao">
+                <nav id="menu">
+                    <a class="itemMenu">Sobre</a>    
+                    <a class="itemMenu" href="./pages/historia.html">História</a>    
+                    <a class="itemMenu">Produtos</a>    
+                    <a class="itemMenu">Galos</a>    
+                    <a class="itemMenu">Cuidados</a>    
+                    <a class="itemMenu">Ranking</a>    
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div id="menuAvisos" draggable="true">
+            <a>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</a>
+        </div>
+
+        <div id="primeiraTela">
+            <div>
+                <a href="pages/sobre.html">
+                    <img id="primeiraImagem" src="imgs/fundoPainel1.png">
+                </a>
+            </div>
+             <div id="texto1">
+                <a href="pages/sobre.html">
+                    <img id="textoImagem"  src="imgs/textoImagem.PNG">
+                </a>
+            </div>
+        </div>
+
+        <div class="telaCheia">
+            <div id="textoTela1">
+                <label id="label2">GALOS</label>
+            </div>
+            <div>
+                <a href="pages/galos.html"><img class="imagemGalo" src="imgs/galo1.jpg"></a>
+                <a href="pages/galos.html"><img class="imagemGalo" src="imgs/galo2.jpg"></a>
+                <a href="pages/galos.html"><img class="imagemGalo" src="imgs/galo3.jpg"></a>
+            </div>
+        </div>
+        <div id="fimSegunda">
+             <a id="galosDeBriga" href="pages/galos.html"><img src="imgs/galosdebriga.png" id="galosDeBrigaImagem"></a>
+        </div>
+
+        <div id="terceiraParte">
+            <label id="labelProdutos">PRODUTOS</label>
+            <div id="produtosBase">
+                <div id="imagensProdutos">
+                    <div id="setasEnd">
+                        <a onclick="carrosselF()"><img class="setas" src="imgs/esquerda.png"></a>
+                        <a href="pages/produtos.html"><img id="produto1" class="produtos" src="imgs/camisa1.jfif"></a> 
+                        <a href="pages/produtos.html"><img id="produto2" class="produtos" src="imgs/imagem3.jpg"></a> 
+                        <a href="pages/produtos.html"><img id="produto3" class="produtos" src="imgs/imagem4.jpg"></a>
+                        <a href="pages/produtos.html"><img id="produto4" class="produtos" src="imgs/imagem2.jpg"></a>
+                        <a><img onclick="carrosselF()" class="setas" src="imgs/direita.png"></a>
+                    </div>
+                </div> 
+                <div id="textoProdutos">
+                    <img id="imagemGalismo" src="imgs/GALISMO.png">
+                </div>
+            </div>
+        </div>
+
+
+        <div id="aviso">
+
+        </div>
+    </main>
+    
+    <footer>
+        <div id="logoFooter">
+            <img id="imagemFooter" src="imgs/imagemMenu.png">
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
